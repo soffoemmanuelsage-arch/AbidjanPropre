@@ -1,11 +1,7 @@
+import Home from "./pages/Home";
+
 function App() {
-  return (
-    <div className="min-h-screen flex items-center justify-center bg-blue-600">
-      <h1 className="text-5xl font-bold text-white">
-        AbidjanPropre fonctionne ! 🎉
-      </h1>
-    </div>
-  );
+  return <Home />;
 }
 
 export default App;
